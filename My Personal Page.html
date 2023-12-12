@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <body onload="startTime()">
+
+    
+    <div id="txt"></div>
+    
+    <script>
+    function startTime() {
+      const today = new Date();
+      let h = today.getHours();
+      let m = today.getMinutes();
+      let s = today.getSeconds();
+      m = checkTime(m);
+      s = checkTime(s);
+      document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s;
+      setTimeout(startTime, 1000);
+    }
+    
+    function checkTime(i) {
+      if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+      return i;
+    }
+    </script>
+
+<title>My Personal Page</title>
+</head>
+
+<!DOCTYPE html>
+<html>
+      <style>
+      * {
+        box-sizing: border-box;
+      }
+      
+      body {
+        font-family: Arial;
+        padding: 10px;
+        background: bisque;
+      }
+      
+      /* Header/Blog Title */
+      .header {
+        padding: 10px;
+        text-align: center;
+        background: floralwhite;
+      }
+      
+      .header h1 {
+        font-size: 40px;
+      }
+      
+      /* Style the top navigation bar */
+      .topnav {
+        overflow: hidden;
+        background-color: LightSlateGray;
+      }
+      
+      /* Style the topnav links */
+      .topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 20px 20px;
+        text-decoration: none;
+      }
+      
+      /* Change color on hover */
+      .topnav a:hover {
+        background-color: #f2f2f2;
+        color: black;
+      }
+      
+      /* Create two unequal columns that floats next to each other */
+      /* Left column */
+      .leftcolumn {   
+        float: left;
+        width: 75%;
+      }
+      
+      /* Right column */
+      .rightcolumn {
+        float: left;
+        width: 25%;
+        background-color: DarkGray;
+        padding-left: 20px;
+      }
+      
+      /* Fake image */
+      .fakeimg {
+        background-color: DarkGrey;
+        width: 100%;
+        padding: 20px;
+      }
+      
+      /* Add a card effect for articles */
+      .card {
+        background-color: DarkGrey;
+        padding: 20px;
+        margin-top: 20px;
+      }
+      
+      /* Clear floats after the columns */
+      .row::after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      
+      /* Footer */
+      .footer {
+        padding: 20px;
+        text-align: center;
+        background: Darkgrey;
+        margin-top: 20px;
+      }
+      
+      /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 800px) {
+        .leftcolumn, .rightcolumn {   
+          width: 50%;
+          padding: 0;
+        }
+      }
+      
+      /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+      @media screen and (max-width: 400px) {
+        .topnav a {
+          float: none;
+          width: 50%;
+        }
+      }
+      </style>
+      </head>
+      <body>
+      
+      <div class="header">
+      <h1> &#129493; My Personal Page&#129493;</h1>
+      </div>
+      
+      <div class="topnav">
+        <a href="Resume Saya.html" style="float:left">Resume</a>
+        <a href="My Journey in Uitm.html">My Journey In Uitm</a>
+        <a href="Beloved Family.html" style="float:right">My Beloved Family</a>
+        <a href="Favourite Song.html" style="float:right">Favourite Song</a>
+      </div> 
+<br>
+
+</div>
+<blockquote style="color:black; text-align:center; font-size:180%;font-family:courier;"><p><i></i></b>"Work Hard In Silence Let Success Be Your Noise"</i></p></b></blockquote>
+<br>
+<center><img src="https://i.imgur.com/9LuC0xC.jpg" alt="Trulli" width="250" height="250">
+
+<br>
+
+<h2 style="color:black; text-align:center;font-size:160%;font-family:times new roman;background-color:bisque;">My name is Ezatul Syuhada Binti Mohd Shahidin. I am 21 years old. I was born in Hospital Baling, Kedah. I live at Teluk Intan, Perak. My highest education is a STPM level. I have studied at S.M.K Sultan Abdul Aziz in Teluk Intan,Perak.I started my secondary school when i was 13 years old at S.M.K Sultan Abdul Aziz until 17 years old and continued my studied at stpm level in the same school. For UPSR result i got 4A 1B, PT3 result 4A 2B 2C 1D, SPM result 4B+ 4C+ 1G, and my STPM result i got CGPA 2.75 (1B+ 1B 2C). My status is single.My aim is to be a successful student involves more that 'just good grades'. At first I did not believe that I had the opportunity to enter the university to continue studying at the bachelor's degree level and that I would study hard to make my family happy with my success.to  My ambition is to be a librarian.This part of this assignment is dedicated for IML470.</h1>
+
+  <h3 style="color:black; text-align:center;font-size:160%;font-family:times new roman;background-color:bisque;">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    .fa {
+      padding: 20px;
+      font-size: 30px;
+      width: 30px;
+      text-align: right;
+      text-decoration: none;
+      margin: 5px 2px;
+      border-radius: 50%
+    }
+    
+    .fa:hover {
+      opacity: 0.7;
+    
+    }
+    
+    .fa-whatsapp{
+      color:green;
+     
+    }
+    
+    .fa-facebook{
+      color:#3B5998;
+    
+    }
+    
+    .fa-instagram {
+      color: black
+    }
+    
+    </style>
+    </head>
+    <body>
+    
+    <!-- Add font awesome icons-->
+    <a href="https://wa.me/60195196402" class="fa fa-whatsapp"></a>
+    <a href="https://www.facebook.com/ezatul.syuhada/" class="fa fa-facebook"></a>  
+    <a href="https://www.instagram.com/ezatulsyuhada/" class="fa fa-instagram"></a>  
+    <a href="https://web.telegram.org/k/" class="fa fa-telegram"></a></p>
+    
+    <p>&#169 zatul02</p>
+  
+  </body>
+  </html>
+     
